@@ -1,20 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.central-logo {
+  height: 70vmin;
+  max-height: 300px;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.red-button {
+  position: absolute;
+  height: 20vmin;
+  top: 20px;
+  left: 20px;
+}
+
+.yellow-button {
+  position: absolute;
+  height: 20vmin;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.zip {
+  position: absolute;
+  height: 20vmin;
+  top: 20px;
+  right: 20px;
+}
+
+.rubriques {
+  position: absolute;
+  font-family: 'Permanent Marker', cursive;
+  color: black;
+  top: 100px;
+  left: 20px;
+  font-size: 20px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
+  background-color:white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
