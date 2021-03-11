@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
+body {
+  overflow: hidden;
+}
 
 .App {
   text-align: center;
 }
 
+.background {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+
 .central-logo {
+  position: absolute;
   height: 70vmin;
-  max-height: 300px;
+  /* max-height: 300px; */
   pointer-events: none;
 }
 
@@ -21,8 +32,8 @@
 .yellow-button {
   position: absolute;
   height: 20vmin;
-  top: 20px;
-  margin: 0 auto;
+  bottom: 20px;
+  left: 10px;
 }
 
 .zip {
@@ -34,11 +45,12 @@
 
 .rubriques {
   position: absolute;
-  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Dancing Script', cursive;
   color: black;
   top: 100px;
   left: 20px;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -68,5 +80,38 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+.anim-logo {
+  animation: animLogo 500ms ease-in;
+}
+
+@keyframes animLogo {
+  0% {
+    height: 70vmin;
+    opacity: 1;
+  }
+  90% {
+    height: 250vmin;
+    opacity: 0;
+  }
+  100% {
+    height: 250vmin;
+    opacity: 0;
+  }
+}
+
+.anim-logo-hole {
+  animation: animLogoHole 500ms ease-in;
+}
+
+@keyframes animLogoHole {
+  0% {
+    height: 70vmin;
+  }
+  100% {
+    height: 250vmin;
   }
 }
