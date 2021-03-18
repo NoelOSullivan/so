@@ -1,7 +1,7 @@
 import logo from './images/logo-large.png';
 import logoHole from './images/logo-large-hole.png';
 import redButton from './images/red-button.png';
-import background from './images/background.jpg';
+import background from './images/background.png';
 import zip from './images/zip.png';
 import yellowButton from './images/yellow-button.png';
 import './App.css';
