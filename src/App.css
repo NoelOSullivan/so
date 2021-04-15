@@ -11,6 +11,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-image: url('images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   /*
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,8 +27,16 @@ body {
   pointer-events: none;
 }
 
+.buttons {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100vw;
+}
+
 .red-button {
   position: absolute;
+  width: 20vmin;
   height: 20vmin;
   top: 20px;
   left: 20px;
@@ -39,7 +50,6 @@ body {
 }
 
 .zip {
-  position: absolute;
   height: 20vmin;
   top: 20px;
   right: 20px;
