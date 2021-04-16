@@ -1,0 +1,65 @@
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.central-logo {
+  position: absolute;
+  height: 70vmin;
+  /* max-height: 300px; */
+  pointer-events: none;
+}
+
+.template-content {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: white;
+}
+
+.anim-logo {
+  animation: animLogo 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animLogo {
+  0% {
+    height: 70vmin;
+    opacity: 1;
+  }
+
+  80% {
+    height: 250vmin;
+    opacity: 0;
+  }
+
+  100% {
+    height: 250vmin;
+    opacity: 0;
+  }
+}
+
+.anim-logo-hole {
+  animation: animLogoHole 1s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animLogoHole {
+  0% {
+    height: 70vmin;
+  }
+
+  90% {
+    height: 250vmin;
+  }
+
+  100% {
+    height: 250vmin;
+  }
+}

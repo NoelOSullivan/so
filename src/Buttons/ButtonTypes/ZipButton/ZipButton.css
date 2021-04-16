@@ -1,0 +1,12 @@
+.zip {
+  height: 20vmin;
+  right: 20px;
+  filter: drop-shadow(2px 2px 2px #FFFFFF);
+}
+
+button {
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
