@@ -20,41 +20,6 @@ body {
   background-position: center;*/
 }
 
-.central-logo {
-  position: absolute;
-  height: 70vmin;
-  /* max-height: 300px; */
-  pointer-events: none;
-}
-
-.buttons {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 100vw;
-}
-
-.red-button {
-  position: absolute;
-  width: 20vmin;
-  height: 20vmin;
-  top: 20px;
-  left: 20px;
-}
-
-.yellow-button {
-  position: absolute;
-  height: 20vmin;
-  bottom: 20px;
-  left: 10px;
-}
-
-.zip {
-  height: 20vmin;
-  top: 20px;
-  right: 20px;
-}
-
 .rubriques {
   position: absolute;
   /* font-family: 'Permanent Marker', cursive; */
@@ -63,71 +28,4 @@ body {
   top: 100px;
   left: 20px;
   font-size: 40px;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
-.App-header {
-  background-color: white;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-.anim-logo {
-  animation: animLogo 500ms ease-in;
-}
-
-@keyframes animLogo {
-  0% {
-    height: 70vmin;
-    opacity: 1;
-  }
-
-  90% {
-    height: 250vmin;
-    opacity: 0;
-  }
-
-  100% {
-    height: 250vmin;
-    opacity: 0;
-  }
-}
-
-.anim-logo-hole {
-  animation: animLogoHole 500ms ease-in;
-}
-
-@keyframes animLogoHole {
-  0% {
-    height: 70vmin;
-  }
-
-  100% {
-    height: 250vmin;
-  }
 }
