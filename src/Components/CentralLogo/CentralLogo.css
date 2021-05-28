@@ -7,6 +7,7 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    /* overflow: hidden; */
 }
 
 .central-logo {
@@ -17,8 +18,22 @@
 }
 
 .anim-logo {
-    animation: animLogo 2s ease-in;
+    animation: animLogo 1s ease-in;
     animation-fill-mode: forwards;
+}
+
+.content-holder {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 50vmin;
+    height: 50vmin;
+    /* background: white; */
+
+    background-image: url('../../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @keyframes animLogo {
@@ -39,7 +54,7 @@
 }
 
 .anim-logo-hole {
-    animation: animLogoHole 2s ease-in;
+    animation: animLogoHole 1s ease-in;
     animation-fill-mode: forwards;
 }
 
@@ -54,5 +69,27 @@
 
     100% {
         height: 250vmin;
+    }
+}
+
+.anim-content-holder {
+    animation: animContentHolder 1s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animContentHolder {
+    0% {
+        width: 50vmin;
+        height: 50vmin;
+    }
+
+    90% {
+        width: 160vmin;
+        height: 200vmin;
+    }
+
+    100% {
+        width: 160vmin;
+        height: 200vmin;
     }
 }
