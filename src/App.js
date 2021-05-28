@@ -6,14 +6,26 @@ import './App.css';
 class App extends Component {
   constructor() {
     super();
+    this.changeContent = this.changeContent.bind(this);
+    this.state={
+      contentId:null
+    }
+  }
+
+  changeContent=(id)=>{
+    this.setState(()=>{
+      return {
+        contentId: id
+      }
+    });
   }
 
   render() {
     return(
       <div className="App">
         <div className="background"></div>
-        <CentralLogo />
-        <Buttons />
+        <CentralLogo contentId={this.state.contentId} />
+        <Buttons changeContent={this.changeContent} />
       </div>
     )
   }

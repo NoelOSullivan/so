@@ -17,7 +17,7 @@
 }
 
 .anim-logo {
-    animation: animLogo 10s ease-in;
+    animation: animLogo 2s ease-in;
     animation-fill-mode: forwards;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .anim-logo-hole {
-    animation: animLogoHole 10s ease-in;
+    animation: animLogoHole 2s ease-in;
     animation-fill-mode: forwards;
 }
 
