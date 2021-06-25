@@ -13,16 +13,54 @@
     left: 10px;
 }
 
-.zip {
-    height: 20vmin;
-    top: 20px;
-    right: 20px;
+.zip-left {
+    position: absolute;
+    width: 50px;
+    top: 25px;
+    left: 60px;
 }
 
-button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    user-select: none;
+.zip-right {
+    position: absolute;
+    width: 50px;
+    top: 25px;
+    right: 60px;
+}
+
+.zip-open-left {
+    position: absolute;
+    width: 130px;
+    left:0px;
+    top: 10px;
+}
+
+.zip-open-right {
+    position: absolute;
+    width: 130px;
+    right:0px;
+    top: 10px;
+}
+
+.zip-button-container {
+    position: absolute;
+    width: 100vw;
+}
+
+.etiquette {
+    position: absolute;
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+    font-size: 32px;
+    text-shadow: 4px 4px 1px black, 4px -4px 1px black, -4px 4px 1px black, -4px -4px 1px black;
+}
+
+.etiquette-left{
+    top: 30px;
+    left: 115px;
+}
+
+.etiquette-right{
+    text-align: right;
+    top: 30px;
+    right: 115px;
 }

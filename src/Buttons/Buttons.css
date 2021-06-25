@@ -3,4 +3,33 @@
     top: 0px;
     left: 0;
     width: 100vw;
+    height: 100vh;
 }
+
+.zip {
+    /* position: absolute; */
+}
+
+.zipX {
+    /* position: absolute;
+    background: red;
+    top: 50px; */
+      /* width: 200px;
+    height: 200px; */
+    /* transform: rotateX(90deg); */
+}
+
+/* .zip1 {
+}
+
+.zip1 {
+}
+
+.zip1 {
+}
+
+.zip1 {
+}
+
+.zip1 {
+} */
